@@ -1,0 +1,22 @@
+[
+  {
+    "title": "See you at the movies",
+    "link": "e-you-at-the-movies.netlify.app",
+    "text": "This is a React project where I used Bootstrap for layout and Hooks to manage state. With this project I realized why nested ternary opertators is an anti-pattern and I tried to ways to avoid it and still achieve the results I wanted in JSX."
+  },
+  {
+    "title": "Vanilla jobs",
+    "link": "nilla-jobs.netlify.app",
+    "text": "This project's goal was to practice React and state management and component lifecicle methods through class based components as well as mobile first design. (break) You can login using a test account: maintester@tester.com - password: maintester"
+  },
+  {
+    "title": "Star wars planets",
+    "link": "r-wars-planets-enciclopedia.netlify.app",
+    "text": "On this project, I focused on practicing Typescript with React. It's one of the most challenging projects I have had, not for it's size but for all the things I have done and tried for the first time, which includes styled components."
+  },
+  {
+    "title": "Flamewisher",
+    "link": "https://wish-list-project.herokuapp.com/",
+    "text": "This was my first large project using NodeJS and Express as well as Handlebars. It helped me understanding http requests, and gave me a foundation to later understand Rest APIs and MVC patterns. (break) You can login using a test account: maintester@tester.com - password: maintester"
+  }
+]
