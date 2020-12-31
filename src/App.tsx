@@ -1,29 +1,25 @@
 import React from "react";
-import Project from "./components/Projects";
+
+import Header from "./components/Header";
+import Projects from "./components/Projects";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>HI! I AM PEDRO</h1>
-        <p>
-          I am a frontend developer and I am always looking for adventures,
-          wilderness, inspirational stories and for the best waves to surf.
-        </p>
-      </header>
+      <Header />
       <main>
-        <article>
-          <h2>Nice to meet you 😄</h2>
-          <p>
+        <article className="about-me-container wrapper">
+          <h2 className="secondary-title mb-4">NICE TO MEET YOU 😄</h2>
+          <p className="description-highlight">
             I have been building my skills around Javascript, focusing mainly in
             React, Redux, Typescript, Bootstrap and Sass.
           </p>
         </article>
 
         <section className="d-flex flex-wrap">
-          <Project />
+          <Projects />
         </section>
       </main>
     </div>
