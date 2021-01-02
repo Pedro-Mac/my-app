@@ -2,21 +2,25 @@
   {
     "title": "See you at the movies",
     "link": "e-you-at-the-movies.netlify.app",
-    "text": "This is a React project where I used Bootstrap for layout and Hooks to manage state. With this project I realized why nested ternary opertators is an anti-pattern and I tried to ways to avoid it and still achieve the results I wanted in JSX."
+    "text": "This is a React project where I used Bootstrap for layout and Hooks to manage state. With this project I realized why nested ternary opertators is an anti-pattern and I tried to ways to avoid it and still achieve the results I wanted in JSX.",
+    "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80"
   },
   {
     "title": "Vanilla jobs",
     "link": "nilla-jobs.netlify.app",
-    "text": "This project's goal was to practice React and state management and component lifecicle methods through class based components as well as mobile first design. (break) You can login using a test account: maintester@tester.com - password: maintester"
+    "text": "This project's goal was to practice React and state management and component lifecicle methods through class based components as well as mobile first design. (break) You can login using a test account: maintester@tester.com - password: maintester",
+    "image": "https://images.unsplash.com/photo-1529717730488-7a2492983b2c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
   },
   {
     "title": "Star wars planets",
     "link": "r-wars-planets-enciclopedia.netlify.app",
-    "text": "On this project, I focused on practicing Typescript with React. It's one of the most challenging projects I have had, not for it's size but for all the things I have done and tried for the first time, which includes styled components."
+    "text": "On this project, I focused on practicing Typescript with React. It's one of the most challenging projects I have had, not for it's size but for all the things I have done and tried for the first time, which includes styled components.",
+    "image": "https://images.unsplash.com/photo-1499334650700-42e4f7ffc63d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
   },
   {
     "title": "Flamewisher",
     "link": "https://wish-list-project.herokuapp.com/",
-    "text": "This was my first large project using NodeJS and Express as well as Handlebars. It helped me understanding http requests, and gave me a foundation to later understand Rest APIs and MVC patterns. (break) You can login using a test account: maintester@tester.com - password: maintester"
+    "text": "This was my first large project using NodeJS and Express as well as Handlebars. It helped me understanding http requests, and gave me a foundation to later understand Rest APIs and MVC patterns. (break) You can login using a test account: maintester@tester.com - password: maintester",
+    "image": "https://images.unsplash.com/photo-1510772314292-9c0ad420734a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
   }
 ]

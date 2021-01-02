@@ -1,0 +1,23 @@
+.project-container {
+  background-color: #fff;
+  border-top: 2px solid rgb(238, 238, 238);
+
+  .text-title {
+    .text-link {
+      color: #212529;
+      font-weight: 700;
+    }
+  }
+
+  .text-descriptive {
+    text-align: justify;
+    line-height: 250%;
+  }
+
+  .link-image {
+    img {
+      width: 100%;
+      border-radius: 0.25rem;
+    }
+  }
+}

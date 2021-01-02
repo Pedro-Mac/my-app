@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "./components/Header";
+import Introduction from "./components/Introduction";
 import Project from "./components/Project";
 
 import projects from "./projects.json";
@@ -12,17 +13,11 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <article className="about-me-container wrapper">
-          <h2 className="secondary-title mb-4">NICE TO MEET YOU 😄</h2>
-          <p className="description-highlight">
-            I have been building my skills around Javascript, focusing mainly in
-            React, Redux, Typescript, Bootstrap and Sass.
-          </p>
-        </article>
+        <Introduction />
 
         <section className="d-flex flex-wrap">
           {projects.map((item, index) => (
-            <Project project={item} index={index} />
+            <Project key={index} project={item} />
           ))}
         </section>
       </main>
