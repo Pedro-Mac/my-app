@@ -3,4 +3,28 @@
   background-image: url("./images/backgorund.jpg");
   background-attachment: fixed;
   color: #212529;
+
+  main {
+    .contacts-container {
+      div {
+        h4 {
+          text-align: start;
+          margin: 0;
+          font-size: 1rem;
+          font-weight: 600;
+        }
+        p {
+          margin: 0;
+        }
+        ul {
+          padding: 0;
+          list-style: none;
+
+          li {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
 }
