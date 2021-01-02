@@ -1,9 +1,11 @@
 import React from "react";
 
 import Header from "./components/Header";
-import Projects from "./components/Projects";
+import Project from "./components/Project";
 
-import "./App.css";
+import projects from "./projects.json";
+
+import "./App.scss";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
         </article>
 
         <section className="d-flex flex-wrap">
-          <Projects />
+          {projects.map((item, index) => (
+            <Project project={item} index={index} />
+          ))}
         </section>
       </main>
     </div>
