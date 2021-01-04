@@ -7,6 +7,11 @@
   main {
     .contacts-container {
       div {
+        color: #727272;
+        padding: 1rem 0;
+        background-color: #f3f3f3;
+        border-top: rgb(224, 224, 224) 2px solid;
+        align-items: center;
         h4 {
           text-align: start;
           margin: 0;
@@ -16,15 +21,34 @@
         p {
           margin: 0;
         }
-        ul {
+        .media-container {
+          margin-bottom: 0;
           padding: 0;
           list-style: none;
+          display: flex;
+          justify-content: flex-end !important;
 
-          li {
+          .media-item {
             padding: 0;
+
+            .media-link {
+              color: #727272;
+            }
+
+            .media-link:hover {
+              color: #000000;
+              text-decoration: none;
+            }
           }
         }
       }
+    }
+  }
+
+  footer {
+    padding: 2rem;
+    p {
+      font-size: 0.75rem;
     }
   }
 }

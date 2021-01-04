@@ -4,8 +4,6 @@ import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import Project from "./components/Project";
 
-import linkedinLogo from "./images/svg/linkedin-brands.svg";
-
 import projects from "./projects.json";
 
 import "./App.scss";
@@ -23,28 +21,43 @@ function App() {
           ))}
         </section>
 
-        <section className="wrapper contacts-container">
-          <div className="d-flex ">
+        <section className="contacts-container ">
+          <div className="d-flex p-4">
             <h4 className="w-25 text-start">Phone</h4>
             <p>+48 514 279 063</p>
           </div>
-          <div className="d-flex ">
+          <div className="d-flex p-4">
             <h4 className="w-25 text-start">Email</h4>
             <p>macpedrot@gmail.com</p>
           </div>
-          <div className="d-flex ">
+          <div className="d-flex p-4">
             <h4 className="w-25 text-start">Social</h4>
-            <ul className="d-flex justify-content-around">
-              <li>
-                <a href="https://www.linkedin.com/in/pedrotmachado/">Linkind</a>
+            <ul className="media-container">
+              <li className="media-item mr-4">
+                <a
+                  href="https://www.linkedin.com/in/pedrotmachado/"
+                  className="media-link"
+                >
+                  Linkedin
+                </a>
               </li>
-              <li>
-                <a href="https://www.linkedin.com/in/pedrotmachado/">Github</a>
+              <li className="media-item">
+                <a
+                  href="https://www.linkedin.com/in/pedrotmachado/"
+                  className="media-link"
+                >
+                  Github
+                </a>
               </li>
             </ul>
           </div>
         </section>
       </main>
+      <footer>
+        <p className="m-0 text-uppercase">
+          Pedro Machado &copy; All rights reserved
+        </p>
+      </footer>
     </div>
   );
 }
