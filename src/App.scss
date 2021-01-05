@@ -43,12 +43,18 @@
         }
       }
     }
+
+    .contacts-container:last-child {
+      border-bottom: rgb(224, 224, 224) 2px solid;
+    }
   }
 
   footer {
     padding: 2rem;
     p {
       font-size: 0.75rem;
+      font-weight: 700;
+      color: #727272;
     }
   }
 }

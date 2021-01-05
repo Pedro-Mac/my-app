@@ -54,8 +54,8 @@ function App() {
         </section>
       </main>
       <footer>
-        <p className="m-0 text-uppercase">
-          Pedro Machado &copy; All rights reserved
+        <p className="fw-bolder m-0 text-uppercase ">
+          &copy; Pedro Machado 2021
         </p>
       </footer>
     </div>
