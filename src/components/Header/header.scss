@@ -19,3 +19,15 @@
     transform: translateY(0);
   }
 }
+
+@media (min-width: 768px) {
+  .intro-header {
+    h1 {
+      font-size: 4rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}

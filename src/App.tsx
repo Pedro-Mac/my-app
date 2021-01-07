@@ -15,13 +15,13 @@ function App() {
       <main>
         <Introduction />
 
-        <section className="d-flex flex-wrap">
+        <section className="d-flex flex-wrap col-md-11 mx-auto bg-white px-0">
           {projects.map((item, index) => (
             <Project key={index} project={item} />
           ))}
         </section>
 
-        <section className="contacts-container ">
+        <section className="contacts-container col-md-11 mx-auto px-0">
           <div className="d-flex p-4">
             <h4 className="w-25 text-start">Phone</h4>
             <p>+48 514 279 063</p>

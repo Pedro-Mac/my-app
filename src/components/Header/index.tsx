@@ -9,7 +9,7 @@ const Header = () => {
   }, [effect]);
 
   return (
-    <header className="d-flex flex-column justify-content-center intro-header wrapper">
+    <header className="d-flex flex-column justify-content-center intro-header wrapper col-md-10 mx-auto">
       <h1 className={`text-center mb-5 primary-title ${effect}`}>
         HI! I AM PEDRO
       </h1>

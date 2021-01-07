@@ -6,11 +6,14 @@
 
   main {
     .contacts-container {
+      background-color: #f3f3f3;
       div {
         color: #727272;
         padding: 1rem 0;
         background-color: #f3f3f3;
         border-top: rgb(224, 224, 224) 2px solid;
+        border-right: rgb(224, 224, 224) 2px solid;
+        border-left: rgb(224, 224, 224) 2px solid;
         align-items: center;
         h4 {
           text-align: start;
@@ -55,6 +58,20 @@
       font-size: 0.75rem;
       font-weight: 700;
       color: #727272;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .App {
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    footer {
+      p {
+        font-size: 1rem;
+      }
     }
   }
 }
