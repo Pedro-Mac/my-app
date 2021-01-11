@@ -16,3 +16,14 @@
     }
   }
 }
+
+@media (min-width: 1024px) {
+  .about-me-container {
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.25rem;
+    }
+  }
+}

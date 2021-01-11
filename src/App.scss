@@ -2,6 +2,9 @@
   text-align: center;
   background-image: url("./images/backgorund.jpg");
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
   color: #212529;
 
   main {
@@ -67,6 +70,26 @@
     h3 {
       font-size: 1.5rem;
     }
+    main {
+      .contacts-container {
+        div {
+          h4 {
+            font-size: 1.25rem;
+          }
+          p {
+            font-size: 1.25rem;
+          }
+
+          .media-container {
+            .media-item {
+              .media-link {
+                font-size: 1.25rem;
+              }
+            }
+          }
+        }
+      }
+    }
 
     footer {
       p {
@@ -74,4 +97,7 @@
       }
     }
   }
+}
+
+@media (min-width: 1024px) {
 }

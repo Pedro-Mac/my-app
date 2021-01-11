@@ -22,8 +22,20 @@
   }
 }
 
+.project-container:nth-child(even) {
+  border-left: 1px solid rgb(238, 238, 238);
+}
+.project-container:nth-child(odd) {
+  border-right: 1px solid rgb(238, 238, 238);
+}
+
 @media (min-width: 768px) {
   .text-descriptive {
     font-size: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .project-container {
+    padding: 3rem 4rem 1rem 4rem;
   }
 }

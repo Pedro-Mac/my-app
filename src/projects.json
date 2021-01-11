@@ -20,7 +20,7 @@
   {
     "title": "Flamewisher",
     "link": "https://wish-list-project.herokuapp.com/",
-    "text": "This was my first large project using NodeJS and Express as well as Handlebars. It helped me understanding http requests, and gave me a foundation to later understand Rest APIs and MVC patterns. (break) You can login using a test account: maintester@tester.com - password: maintester",
+    "text": "This was my first large project using NodeJS and Express as well as Handlebars. It helped me understanding HTTP requests, and gave me the foundation to later understand REST APIs and MVC patterns. (break) You can login using a test account: maintester@tester.com - password: maintester",
     "image": "https://images.unsplash.com/photo-1510772314292-9c0ad420734a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
   }
 ]
