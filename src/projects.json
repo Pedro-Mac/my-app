@@ -1,5 +1,11 @@
 [
   {
+    "title": "Weather Wizard",
+    "link": "https://app.netlify.com/sites/nice-weather-uh/overview",
+    "text": "Weather Wizard is a React project that uses both React Hooks and Redux to manage state as well as Typescript to improve the coding experience and to avoid many mistakes. With this project I accomplished a better readibility of code by abstrancting away the logic from the components and keeping things clean",
+    "image": "https://images.unsplash.com/photo-1549778927-fe4755ee38ba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
+  },
+  {
     "title": "See you at the movies",
     "link": "https://see-you-at-the-movies.netlify.app/",
     "text": "This is a React project where I used Bootstrap for layout and Hooks to manage state. With this project I realized why nested ternary opertators is an anti-pattern and I tried to ways to avoid it and still achieve the results I wanted in JSX.",
@@ -22,5 +28,11 @@
     "link": "https://wish-list-project.herokuapp.com/",
     "text": "This was my first large project using NodeJS and Express as well as Handlebars. It helped me understanding HTTP requests, and gave me the foundation to later understand REST APIs and MVC patterns. (break) You can login using a test account: maintester@tester.com - password: maintester",
     "image": "https://images.unsplash.com/photo-1510772314292-9c0ad420734a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+  },
+  {
+    "title": "Save Candy",
+    "link": "https://candy-rescuer.netlify.app/",
+    "text": "This was my first project ever. It was extremely useful to practice both algorithms and object oriented programming.",
+    "image": "https://images.unsplash.com/photo-1598214239128-55b3de289853?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
   }
 ]
