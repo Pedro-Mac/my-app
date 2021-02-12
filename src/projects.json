@@ -1,7 +1,7 @@
 [
   {
     "title": "Weather Wizard",
-    "link": "https://app.netlify.com/sites/nice-weather-uh/overview",
+    "link": "https://nice-weather-uh.netlify.app/",
     "text": "Weather Wizard is a React project that uses both React Hooks and Redux to manage state as well as Typescript to improve the coding experience and to avoid many mistakes. With this project I accomplished a better readibility of code by abstrancting away the logic from the components and keeping things clean",
     "image": "https://images.unsplash.com/photo-1549778927-fe4755ee38ba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
   },
